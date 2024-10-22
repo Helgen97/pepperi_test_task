@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepperi Test Task</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="input_container">
+                <label for="input">Name/Value Pair</label>
+                <input id="input" name="input" type="text" placeholder="Name=Value" />
+            </div>
+            <p id="input_error" class="input_error"></p>
+            <button id="add_button" type="button">Add</button>
+        </header>
+        <section>
+            <h3>Name/Value Pair List</h3>
+            <div id="list_container">
+
+            </div>
+        </section>
+        <aside>
+            <button id="name_sort" type="button">Sort by Name</button>
+            <button id="value_sort" type="button">Sort by Value</button>
+            <button id="delete_button" type="button">Delete</button>
+            <button id="xml_button" type="button">Show as XML</button>
+        </aside>
+    </main>
+    <dialog id="modal">
+    </dialog>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
